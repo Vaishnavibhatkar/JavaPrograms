@@ -1,0 +1,26 @@
+package HelloJava;
+import java.util.*;
+
+public class UserInput {
+
+	public static void main(String[] args) 
+	{
+	  Scanner Sc = new Scanner (System.in);
+	  System.out.println(" Enter The Full Name:");
+	  String FullName =Sc.next();
+	  System.out.println("Enter The Age :");
+	  int age=Sc.nextInt();
+	  System.out.println("Enter The Phone No :");
+	  int phpno =Sc.nextInt();
+	  System.out.println("Enter The city :");
+	  char city=Sc.next().charAt(0);
+	  System.out.println("--------------------------------------");
+	  System.out.println("FullName:"+FullName +" ");
+	  System.out.println("age:"+age +" ");
+	  System.out.println("Phpno:"+phpno +" ");
+	  System.out.println("city:"+city +" ");
+
+
+	}
+
+}

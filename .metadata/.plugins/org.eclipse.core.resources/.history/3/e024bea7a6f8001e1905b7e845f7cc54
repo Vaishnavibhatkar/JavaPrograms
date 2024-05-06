@@ -1,0 +1,21 @@
+package Collection;
+import java.util.HashSet;
+import java.util.Set;
+
+public class Set_Demo 
+{
+
+	public static void main(String[] args)
+	{
+		Set s= new HashSet();
+		s.add("Vaishu");
+		s.add("Mahi");
+		s.add("Shraddha");
+		s.add("Pooja");
+		
+		System.out.println(s);
+	
+
+	}
+
+}

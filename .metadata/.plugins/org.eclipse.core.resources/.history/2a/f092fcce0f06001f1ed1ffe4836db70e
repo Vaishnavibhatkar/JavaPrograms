@@ -1,0 +1,13 @@
+package com.springcore.collection;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClasspathXml	ApplicationContext;
+
+
+public class Test 
+{
+         public static void main(String arg[])
+         {
+        	 ApplicationContext context=new ClassPathXmlApplicationContext("com/springcore/collection/collectioncomfig");
+        	 
+         }
+}

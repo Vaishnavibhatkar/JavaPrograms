@@ -1,0 +1,27 @@
+package Collection;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class List_Demo 
+{
+
+	public static void main(String[] args)
+	{
+		List l1= new ArrayList();
+		l1.add(10);
+		l1.add(20);
+		l1.add(30);
+		l1.add(40);
+		l1.add(40);
+		l1.add(50);
+		l1.add("Vaishu");
+		l1.add("null");
+		l1.add("null");
+		
+		Iterator itr= l1.iterator();
+		while(itr.hasNext())
+		System.out.println(itr.next());
+
+	}
+}

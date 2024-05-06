@@ -1,0 +1,17 @@
+package HelloJava;
+
+public class MultiplicationNo {
+
+	public static void main(String[] args)
+	{
+	   int no=5;
+	   int mul=0;
+	   for(int i=1; i<=10; i++);
+	   {
+		   mul= no*no;
+		   System.out.println("The Table of 5 is" +mul);
+	   }
+
+	}
+
+}

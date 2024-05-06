@@ -1,0 +1,29 @@
+package array;
+import java.util.*;
+
+public class Square_Root
+{
+
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a Number :");
+		int no=sc.nextInt();
+		try
+		{
+			System.out.println(Math.sqrt(no));
+			{
+				if(no>0)
+				{
+					System.out.println("Number is Negative" );
+				}
+			}
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+
+	}
+
+}

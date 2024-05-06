@@ -1,0 +1,52 @@
+package array;
+import java.util.*;
+ class NegativeException extends Square_Root 
+ {
+	 public void NegativeNumberException(String message) 
+	 {
+	    
+	  }
+	
+ }
+ public main
+ {
+	  
+	public static int main(String[] args)
+	{
+	  Scanner sc=new Scanner(System.in);
+	  System.out.println("Enter a Number:");
+	  int no=sc.nextInt();
+	  //System.out.println(Math.sqrt(no));
+	  //class NegativeException extends Square_Root 
+	  
+	  {
+
+	  try 
+	  {
+		  System.out.println(Math.sqrt(no));
+
+		    if (no > 0)
+		    {
+		        return no;
+		    }
+		    throw new NegativeException();
+	  } 
+	  
+	     catch (Exception e) 
+	         {
+		          e.printStackTrace();
+	     
+	         }
+	  }
+	}
+}
+
+	      
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	 

@@ -1,0 +1,24 @@
+//check for palindrome: Write a java program to check if the elements of an array form a palindrome.
+package array;
+
+public class Palindrome 
+{
+		 public static void main(String a[]) {
+			 int arr[]= {121,153,25};
+			 int n=arr.length;
+			 for(int a1:arr) {
+				 int rev=0;
+				 int temp=a1;
+				 while(a1>0) {
+					int rem=a1%10;
+					 rev=rev*10+rem;
+					 a1=a1/10;
+				 }
+				 if(rev==temp) {
+					System.out.println("this is a palindrome number:"+rev);
+				 
+			 }
+		 }
+		 }
+}
+

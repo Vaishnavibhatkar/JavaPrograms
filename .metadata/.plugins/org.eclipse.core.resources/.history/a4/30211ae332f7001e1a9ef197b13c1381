@@ -1,0 +1,25 @@
+//you can use a try catch block to handle the exception and throw a custom exception 
+//when a negative number is detected during input
+
+package array;
+import java.io.FileInputStream;
+public class ExceptionDemo
+{
+
+	public static void main(String[] args) 
+	{
+		
+		try
+		{
+			int a= -5;
+			System.out.println(a);
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+		System.out.println("hello");
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package HelloJava;
+
+public class MultiplicationNo {
+
+	public static void main(String[] args)
+	{
+	   int no=5;
+	   int mul=1;
+	  
+	   for(int a=1; a<=10; a++);
+	   {
+		  
+		   System.out.println(+no);
+		   mul=mul*no;  
+
+	}
+
+}
+}
